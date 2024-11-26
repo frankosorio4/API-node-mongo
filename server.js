@@ -5,6 +5,7 @@ const app = express();
 
 routes(app);
 
+// configuring static files
 app.use(express.static("uploads"));
 
 app.listen(3000, () => {
