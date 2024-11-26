@@ -1,6 +1,6 @@
 # Alura_back_mongo
 
-Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database. This project uses the Gemini AI to add dynamically a image description when it is saved in the database.
+Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database(https://www.mongodb.com/). This project uses the Gemini AI to add dynamically a image description when it is saved in the database.
 
 ## Technologies
 
@@ -10,10 +10,12 @@ Alura_back_mongo is a simple backend API that allows saving specific information
 
 ## Libraries
 
-- [Express](https://expressjs.com/)
-- [Mongo db](https://www.mongodb.com/)
+- [Express](https://www.npmjs.com/package/express)
+- [Mongo db](https://www.npmjs.com/package/mongodb)
 - [Multer](https://www.npmjs.com/package/multer)
 - [Gemini-@google/generative-ai](https://www.npmjs.com/package/@google/generative-ai)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Cors](https://www.npmjs.com/package/cors)
   
 ## Database element example
 
