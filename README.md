@@ -77,7 +77,7 @@ alura-back
    ```
 8. Access to http://localhost:3000/post to get the data in the database.
 
-# Steps to save and run the API in Google Cloud
+## Steps to save and run the API in Google Cloud
 
 1. Sign in to your Google Cloud account (You must have an account at https://cloud.google.com/).
 2. Access the terminal and Clone the repository.
