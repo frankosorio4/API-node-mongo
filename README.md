@@ -1,7 +1,6 @@
 # Alura_back_mongo
 
-Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database.
-
+Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database. This project allows to use the Gemini AI to add dynamically a description of an image  when saving in the database.
 
 ## Technologies
 
@@ -64,18 +63,21 @@ alura-back
 
 ## Steps to execute
 
-1. Open the VSCODE.
-2. Clone the repository.
-3. Adjust the configuration to your environment variables ```.env```.
-4. Install the dependencies using
+1. Create an account in [Mongo db](https://www.mongodb.com/).
+2. Sign in to your Mongo account and create the DATABASE for your Node project. Go to connection and copy the **connection string** to use it in the ```.env``` file.
+3. Go to [Google Ai Studio](https://aistudio.google.com/app/apikey) and create and ID key, and use it in the ```.env``` file.
+4. Open the VSCODE.
+5. Clone the repository.
+6. Adjust the configuration to your environment variables ```.env```.
+7. Install the dependencies using
    ```bash
    npm install
    ```
-6. To run the server, execute the command
+8. To run the server, execute the command
    ```bash
    npm run dev
    ```
-8. Access to http://localhost:3000/post to get the data in the database.
+9. Access to http://localhost:3000/post to get the data in the database.
 
 ## Steps to save and run the API in Google Cloud
 
