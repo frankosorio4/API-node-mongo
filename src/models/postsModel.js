@@ -4,19 +4,19 @@ import conectarAoBanco from "../config/dbConfig.js";
 
 const conexao = await conectarAoBanco(process.env.STRING_CONEXAO);
 
-export async function getTodosPost() {
+export async function getAllPost() {
     const db = conexao.db("imersao_alura");
     const colecao = db.collection("posts");
     return colecao.find().toArray();
 }
 
-export async function criarPost(novoPost) {
+export async function createPostDb(post) {
     const db = conexao.db("imersao_alura");
     const colecao = db.collection("posts");
-    return colecao.insertOne(novoPost); 
+    return colecao.insertOne(post); 
 }
 
-export async function atualizarPost(id, updatedPost) {
+export async function updatePostDb(id, updatedPost) {
     const db = conexao.db("imersao_alura");
     const colecao = db.collection("posts");
     const objId = ObjectId.createFromHexString(id);

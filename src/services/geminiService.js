@@ -3,9 +3,9 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-export default async function gerarDescricaoComGemini(imageBuffer) {
+export default async function generateDecriptionGemini(imageBuffer) {
   const prompt =
-    "Gere uma descrição em português do brasil para a seguinte imagem";
+    "Generate a description for the following image";
 
   try {
     const image = {
@@ -15,9 +15,9 @@ export default async function gerarDescricaoComGemini(imageBuffer) {
       },
     };
     const res = await model.generateContent([prompt, image]);
-    return res.response.text() || "Alt-text não disponível.";
+    return res.response.text() || "Alt-text not available.";
   } catch (erro) {
-    console.error("Erro ao obter alt-text:", erro.message, erro);
-    throw new Error("Erro ao obter o alt-text do Gemini.");
+    console.error("Error to generate alt-text:", erro.message, erro);
+    throw new Error("Error to generate alt-text.");
   }
 }
