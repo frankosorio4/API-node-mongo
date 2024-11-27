@@ -4,9 +4,9 @@ Alura_back_mongo is a simple backend API that allows saving specific information
 
 ## Technologies
 
-- _Back-end:_ **Node.js** (https://nodejs.org/en)
-- _Data base:_ **MongoDB** (https://www.mongodb.com/)
-- _Server_: **Google cloud**.
+- _Back-end:_ [**Node.js**](https://nodejs.org/en)
+- _Data base:_ [**MongoDB**](https://www.mongodb.com/)
+- _Server_: [**Google cloud**]( https://cloud.google.com/).
 
 ## Libraries
 
@@ -60,17 +60,17 @@ alura-back
 
 ## Pré-requisite
 
-- **Node.JS**
 - **VSCODE**
+- **Node.JS**
 
 ## Steps to execute
 
 1. Create an account in [Mongo db](https://www.mongodb.com/).
-2. Sign in to your Mongo account and create the DATABASE for your Node project. Go to connection and copy the **connection string** to use it in the ```.env``` file.
-3. Go to [Google Ai Studio](https://aistudio.google.com/app/apikey) and create the ID key, and use it in the ```.env``` file.
+2. Sign in to your Mongo account and create a DATABASE for your Node project. Go to the database connection and copy the **connection string** provided to use it in the ```.env``` file.
+3. Go to [Google Ai Studio](https://aistudio.google.com/app/apikey). Create the ID key, and use it in the ```.env``` file.
 4. Open the VSCODE.
 5. Clone the repository.
-6. Adjust the configuration to your environment variables ```.env```.
+6.  Adjust the environment variables in the file ```.env```.
 7. Install the dependencies using
    ```bash
    npm install
@@ -84,10 +84,10 @@ alura-back
 ## Steps to save and run the API in Google Cloud
 
 1. Sign in to your Google Cloud account (You must have an account at https://cloud.google.com/).
-2. Access the terminal and Clone the repository.
-3. Access the repository with the Google Cloud editor.
-4. Remove the file ```.gitignore```.
-5. Adjust the configuration to your environment variables ```.env```.
+2. Access the terminal in your Google Cloud and Clone the repository.
+3. Access the repository with the Google Cloud editor. It is similar to the VSCODE.
+4. Remove the file ```.gitignore``` to the project.
+5. Adjust the environment variables in the file ```.env```.
 6. Install the dependencies using
    ```bash
    npm install
