@@ -106,4 +106,7 @@ alura-back
 
 ## Improvements
 
-- _Integration with the Front-end_ 
+- _Data validation_
+- _Implement security methods (User accounts, JWTOKEN, ...)_
+- _Add a DELETE method to complete the CRUD_
+- _Integration with the Front-end_
