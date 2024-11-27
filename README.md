@@ -1,12 +1,12 @@
-# Alura_back_mongo
+# Alura_back_mongo API
 
-Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database(https://www.mongodb.com/). This project uses the Gemini AI to add dynamically a image description when it is saved in the database.
+Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database(https://www.mongodb.com/). This project uses the Gemini AI to dynamically add an image description when saved in the database. This project was performed as an activity of the Alura platform.
 
 ## Technologies
 
 - _Back-end:_ [**Node.js**](https://nodejs.org/en)
 - _Data base:_ [**MongoDB**](https://www.mongodb.com/)
-- _Server_: [**Google cloud**]( https://cloud.google.com/).
+- _Server_: [**Google cloud**]( https://cloud.google.com/)
 
 ## Libraries
 
@@ -81,7 +81,7 @@ alura-back
    ```
 9. Access to http://localhost:3000/post to get the data in the database.
 
-## Steps to save and run the API in Google Cloud
+## Steps to deploy the API in Google Cloud
 
 1. Sign in to your Google Cloud account (You must have an account at https://cloud.google.com/).
 2. Access the terminal in your Google Cloud and Clone the repository.
@@ -98,6 +98,6 @@ alura-back
    ```
    where PORT is the number we establish to run the API.
 
-## Melhorias Futuras
+## Improvements
 
 - _Integration with the Front-end_ 
