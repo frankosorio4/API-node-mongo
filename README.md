@@ -79,8 +79,14 @@ alura-back
    ```bash
    npm run dev
    ```
-9. Access to http://localhost:3000/post to get the data in the database.
-
+9. Access with your browser to http://localhost:3000/post to get the data in the database.
+10. Use [Postman](https://www.postman.com/) or a similar software to perform the CRUD.
+    
+    - GET: http://localhost:3000/post (List all the elements in the database)
+    - POST: http://localhost:3000/post (Allows to create a new post)
+    - POST: http://localhost:3000/post/upload (Allows to upload an image in format PNG in the database)
+    - PUT: http://localhost:3000/post/upload/id (Allows to update a post and generate an image description using Gemini AI for a saved image in the database)
+    
 ## Steps to deploy the API in Google Cloud
 
 1. Sign in to your Google Cloud account (You must have an account at https://cloud.google.com/).
