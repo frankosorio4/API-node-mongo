@@ -1,6 +1,6 @@
-# Alura_back_mongo API
+# Api-node-mongo
 
-Alura_back_mongo is a simple backend API that allows saving specific information provided for the front end in a Mongo database(https://www.mongodb.com/). This project uses the Gemini AI to dynamically add an image description when saved in the database. This project was performed as an activity of the Alura platform.
+_Api-node-mongo_ is a simple backend API that allows saving specific information provided for the front end in a [Mongo](https://www.mongodb.com/) database. This project uses the Gemini AI to dynamically add an image description when saved in the database. This project was performed as an activity of the [Alura](https://www.alura.com.br) platform.
 
 ## Technologies
 
